@@ -194,7 +194,7 @@ void MSTAlgorithms::kruskal(Graph const *graph, std::chrono::milliseconds &timeM
     int totalWeight = 0;
 
     //Iterating through all edges in the sorted edges
-    while (!edgeHeap.empty()){
+    while (!edgeHeap.empty() && edgeCount < n - 1){
         Edge smallestEdge = edgeHeap.getMinElement();
         int u = smallestEdge.from;
         int v = smallestEdge.to;
@@ -232,26 +232,15 @@ void MSTAlgorithms::kruskalList(Graph const *graph, std::chrono::milliseconds &t
 
 
     auto start = std::chrono::high_resolution_clock::now();
-    //Adding all edges into the list and sorting them at the same time
     for (int i = 0; i < n; i++) {
         const AdjList &adjList = graph->getAdjList(i);
-        // Cache edges locally
-        const auto *edges = adjList.getEdges();
-        int size = adjList.getSize();
-        int count = 0;
-        Edge* tempArr = new Edge[size];
-        for (int j = 0; j < size; j++) {
-            const Edge &edge = edges[j];
+        for (int j = 0; j < adjList.getSize(); j++) {
+            const Edge &edge = adjList.getEdges()[j];
             if (i < edge.to) {
-                tempArr[count++] = edge;
+                edgeHeap.insertElement(edge);
             }
         }
-        if (count > 0) {
-            edgeHeap.bulkInsert(tempArr, count);
-        }
-        delete[] tempArr;
     }
-
 
     //Creating disjoint set with max of n nodes
     DisjointSet dsSet(n);
@@ -260,7 +249,7 @@ void MSTAlgorithms::kruskalList(Graph const *graph, std::chrono::milliseconds &t
     int totalWeight = 0;
 
     //Iterating through all edges in the sorted edges
-    while (!edgeHeap.empty()){
+    while (!edgeHeap.empty() && edgeCount < n - 1){
         Edge smallestEdge = edgeHeap.getMinElement();
         int u = smallestEdge.from;
         int v = smallestEdge.to;
