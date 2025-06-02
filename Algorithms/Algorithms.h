@@ -3,6 +3,7 @@
 #define INF INT_MAX
 
 #include <chrono>
+#include <climits>
 
 #include "../DataStructures/Graph.h"
 #include "../DataStructures/MinHeap.h"

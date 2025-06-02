@@ -77,7 +77,7 @@ void MSTAlgorithms::prim(Graph const *graph, std::chrono::milliseconds &timeMatr
     auto end = std::chrono::high_resolution_clock::now();
     timeMatrix = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResult(graph, resultEdges, edgeCount, totalWeight);
+    printResult(graph, resultEdges, edgeCount, totalWeight);
 
     // Sprzątanie (usuwanie tablic dynamicznych)
     delete[] inMST;
@@ -156,7 +156,7 @@ void MSTAlgorithms::primList(Graph const *graph, std::chrono::milliseconds &time
     auto end = std::chrono::high_resolution_clock::now();
     timeList = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResult(graph, resultEdges, edgeCount, totalWeight);
+    printResult(graph, resultEdges, edgeCount, totalWeight);
 
     // Sprzątanie pamięci
     delete[] inMST; inMST = nullptr;
@@ -212,7 +212,7 @@ void MSTAlgorithms::kruskal(Graph const *graph, std::chrono::milliseconds &timeM
     auto end = std::chrono::high_resolution_clock::now();
     timeMatrix = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResult(graph, mstSetResult, edgeCount, totalWeight);
+    printResult(graph, mstSetResult, edgeCount, totalWeight);
 
     delete[] mstSetResult; mstSetResult = nullptr;
     delete[] visited; visited = nullptr;
@@ -267,7 +267,7 @@ void MSTAlgorithms::kruskalList(Graph const *graph, std::chrono::milliseconds &t
     auto end = std::chrono::high_resolution_clock::now();
     timeList = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResult(graph, mstSetResult, edgeCount, totalWeight);
+    printResult(graph, mstSetResult, edgeCount, totalWeight);
 
     delete[] mstSetResult; mstSetResult = nullptr;
     delete[] visited; visited = nullptr;

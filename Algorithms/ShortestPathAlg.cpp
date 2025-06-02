@@ -45,8 +45,8 @@ void ShortestPathAlgorithms::dijkstra(Graph const *graph, std::chrono::milliseco
     auto end = std::chrono::high_resolution_clock::now();
     timeMatrix = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResultDistance(graph, nodes, distance);
-    // printResultPath(graph, nodes, distance, previous);
+    printResultDistance(graph, nodes, distance);
+    printResultPath(graph, nodes, distance, previous);
 
     delete[] visited;
     delete[] distance;
@@ -82,6 +82,10 @@ void ShortestPathAlgorithms::dijkstraList(Graph const *graph, std::chrono::milli
         const AdjList& adjList = graph->getAdjList(u);
         for (int v = 0; v < adjList.getSize(); v++) {
             Edge edge = adjList.getEdges()[v];
+            if (edge.weight < 0) {
+                std::cout << "Edge weight cannot be negative\n";
+                return;
+            }
             if (!visited[edge.to] && distance[u] != INF && distance[u] + edge.weight < distance[edge.to]) {
                 distance[edge.to] = distance[u] + edge.weight;
                 previous[edge.to] = u;
@@ -93,8 +97,8 @@ void ShortestPathAlgorithms::dijkstraList(Graph const *graph, std::chrono::milli
     auto end = std::chrono::high_resolution_clock::now();
     timeList = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResultDistance(graph, nodes, distance);
-    // printResultPath(graph, nodes, distance, previous);
+    printResultDistance(graph, nodes, distance);
+    printResultPath(graph, nodes, distance, previous);
 
     delete[] visited;
     delete[] distance;
@@ -149,8 +153,8 @@ void ShortestPathAlgorithms::bellmanFord(Graph const *graph, std::chrono::millis
     auto end = std::chrono::high_resolution_clock::now();
     timeMatrix = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResultDistance(graph, graph->getNodes(), distance);
-    // printResultPath(graph, graph->getNodes(), distance, previous);
+    printResultDistance(graph, graph->getNodes(), distance);
+    printResultPath(graph, graph->getNodes(), distance, previous);
 
     delete[] distance;
     delete[] previous;
@@ -203,8 +207,8 @@ void ShortestPathAlgorithms::bellmanFordList(Graph const *graph, std::chrono::mi
     auto end = std::chrono::high_resolution_clock::now();
     timeList = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
-    // printResultDistance(graph, graph->getNodes(), distance);
-    // printResultPath(graph, graph->getNodes(), distance, previous);
+    printResultDistance(graph, graph->getNodes(), distance);
+    printResultPath(graph, graph->getNodes(), distance, previous);
 
     delete[] distance;
     delete[] previous;

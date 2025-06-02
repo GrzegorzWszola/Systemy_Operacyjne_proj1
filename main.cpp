@@ -5,8 +5,8 @@
 
 int main() {
 
-    // MainMenu::entryMessage();
-    GenerateResults::generateResult();
+    MainMenu::entryMessage();
+    // GenerateResults::generateResult();
 
     return 0;
 }

@@ -78,16 +78,6 @@ public:
         size++;
     }
 
-    void bulkInsert(const Edge* arr, int s) {
-        for (int i = 0; i < s; i++) {
-            heapArr[size + i] = arr[i];
-        }
-        size += s;
-        for (int i = 0; i < s; i++) {
-            heapArr[size + i] = arr[i];
-        }
-    }
-
     bool empty() {
         if (size == 0) return true;
         return false;
