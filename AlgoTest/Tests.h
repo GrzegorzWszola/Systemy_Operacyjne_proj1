@@ -6,7 +6,7 @@
 #include "../Algorithms/Algorithms.h"
 #include "../GUI/GUI.h"
 
-#define REPETITIONS 10
+#define REPETITIONS 50
 
 class Tests {
 public:

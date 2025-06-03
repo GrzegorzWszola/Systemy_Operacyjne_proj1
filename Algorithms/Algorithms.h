@@ -2,6 +2,7 @@
 #define ALGORITHMS_H
 #define INF INT_MAX
 
+#include "../DataStructures//MinHeapDist.h"
 #include <chrono>
 #include <climits>
 

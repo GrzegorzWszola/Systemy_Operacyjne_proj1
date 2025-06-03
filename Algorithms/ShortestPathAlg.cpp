@@ -1,12 +1,12 @@
 #include "Algorithms.h"
+#include "../DataStructures/MinHeapDist.h"
+
 
 void ShortestPathAlgorithms::dijkstra(Graph const *graph, std::chrono::milliseconds &timeMatrix) {
     int nodes = graph->getNodes();
     bool* visited = new bool[nodes];
     int* distance = new int[nodes];
     int* previous = new int[nodes];
-
-    auto start = std::chrono::high_resolution_clock::now();
 
     std::fill_n(distance, nodes, INF);
     std::fill_n(previous, nodes, -1);
@@ -15,18 +15,19 @@ void ShortestPathAlgorithms::dijkstra(Graph const *graph, std::chrono::milliseco
     int source = graph->getStartingNode();
     distance[source] = 0;
 
-    MinHeap minHeap(graph->getEdgeCounter());
-    minHeap.insertElement(Edge(source, source, 0));
+    MinHeapDist minHeap(graph->getEdgeCounter());
+    minHeap.insertElement(source, 0);
 
-    //Iterating while heap is not empty
+    auto start = std::chrono::high_resolution_clock::now();
+
     while (!minHeap.empty()) {
-        Edge current = minHeap.getMinElement();
-        int u = current.to;
+        HeapNode current = minHeap.getMinElement();
+        int u = current.vertex;
 
-        //Checking if the node was already visited
-        if (visited[u]) continue;
+        if (visited[u])
+            continue;
+
         visited[u] = true;
-
 
         for (int v = 0; v < nodes; v++) {
             int weight = graph->getAdjMatrix()[u][v];
@@ -37,7 +38,7 @@ void ShortestPathAlgorithms::dijkstra(Graph const *graph, std::chrono::milliseco
             if (weight > 0 && distance[u] != INF && distance[u] + weight < distance[v]) {
                 distance[v] = distance[u] + weight;
                 previous[v] = u;
-                minHeap.insertElement(Edge(u, v, distance[v]));
+                minHeap.insertElement(v, distance[v]);
             }
         }
     }
@@ -53,7 +54,6 @@ void ShortestPathAlgorithms::dijkstra(Graph const *graph, std::chrono::milliseco
     delete[] previous;
 }
 
-
 void ShortestPathAlgorithms::dijkstraList(Graph const *graph, std::chrono::milliseconds &timeList) {
     int nodes = graph->getNodes();
     bool* visited = new bool[nodes];
@@ -63,16 +63,18 @@ void ShortestPathAlgorithms::dijkstraList(Graph const *graph, std::chrono::milli
     std::fill_n(distance, nodes, INF);
     std::fill_n(previous, nodes, -1);
     std::fill_n(visited, nodes, false);
-    distance[graph->getStartingNode()] = 0;
 
-    MinHeap minHeap(graph->getEdgeCounter());
-    minHeap.insertElement(Edge(graph->getStartingNode(), graph->getStartingNode(), 0));
+    int source = graph->getStartingNode();
+    distance[source] = 0;
+
+    MinHeapDist minHeap(graph->getEdgeCounter());
+    minHeap.insertElement(source, 0);
 
     auto start = std::chrono::high_resolution_clock::now();
 
     while (!minHeap.empty()) {
-        Edge current = minHeap.getMinElement();
-        int u = current.to;
+        HeapNode current = minHeap.getMinElement();
+        int u = current.vertex;
 
         if (visited[u])
             continue;
@@ -89,7 +91,7 @@ void ShortestPathAlgorithms::dijkstraList(Graph const *graph, std::chrono::milli
             if (!visited[edge.to] && distance[u] != INF && distance[u] + edge.weight < distance[edge.to]) {
                 distance[edge.to] = distance[u] + edge.weight;
                 previous[edge.to] = u;
-                minHeap.insertElement(Edge(u, edge.to, distance[edge.to]));
+                minHeap.insertElement(edge.to, distance[edge.to]);
             }
         }
     }
@@ -104,6 +106,7 @@ void ShortestPathAlgorithms::dijkstraList(Graph const *graph, std::chrono::milli
     delete[] distance;
     delete[] previous;
 }
+
 
 
 void ShortestPathAlgorithms::bellmanFord(Graph const *graph, std::chrono::milliseconds &timeMatrix) {
