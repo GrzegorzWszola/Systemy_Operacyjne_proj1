@@ -1,12 +1,15 @@
 #include <iostream>
-
-#include "GUI/GUI.h"
-#include "AlgoTest/Tests.h"
+#include "Tests/Tests.cpp"
 
 int main() {
-
-    MainMenu::entryMessage();
-    // GenerateResults::generateResult();
-
+    bool testCorrectness = 0;
+    
+    if(testCorrectness){
+        testDjikstraCorrectness();
+    } else {
+        testDjikstra();
+    }
+    
+    
     return 0;
 }

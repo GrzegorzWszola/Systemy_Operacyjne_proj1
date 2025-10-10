@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Systemy_Op.dir/link.d CMakeFiles/Systemy_Op.dir/main.cpp.o CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o -o Systemy_Op
