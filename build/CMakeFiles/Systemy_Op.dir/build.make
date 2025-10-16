@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grzegorz/Desktop/systemy_op/AIZO-project-2
+CMAKE_SOURCE_DIR = /home/grzegorz/Desktop/systemy_op/Systemy_Op
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build
+CMAKE_BINARY_DIR = /home/grzegorz/Desktop/systemy_op/Systemy_Op/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Systemy_Op.dir/depend.make
@@ -73,79 +73,127 @@ CMakeFiles/Systemy_Op.dir/codegen:
 .PHONY : CMakeFiles/Systemy_Op.dir/codegen
 
 CMakeFiles/Systemy_Op.dir/main.cpp.o: CMakeFiles/Systemy_Op.dir/flags.make
-CMakeFiles/Systemy_Op.dir/main.cpp.o: /home/grzegorz/Desktop/systemy_op/AIZO-project-2/main.cpp
+CMakeFiles/Systemy_Op.dir/main.cpp.o: /home/grzegorz/Desktop/systemy_op/Systemy_Op/main.cpp
 CMakeFiles/Systemy_Op.dir/main.cpp.o: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Systemy_Op.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/main.cpp.o -MF CMakeFiles/Systemy_Op.dir/main.cpp.o.d -o CMakeFiles/Systemy_Op.dir/main.cpp.o -c /home/grzegorz/Desktop/systemy_op/AIZO-project-2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Systemy_Op.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/main.cpp.o -MF CMakeFiles/Systemy_Op.dir/main.cpp.o.d -o CMakeFiles/Systemy_Op.dir/main.cpp.o -c /home/grzegorz/Desktop/systemy_op/Systemy_Op/main.cpp
 
 CMakeFiles/Systemy_Op.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Systemy_Op.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/AIZO-project-2/main.cpp > CMakeFiles/Systemy_Op.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/Systemy_Op/main.cpp > CMakeFiles/Systemy_Op.dir/main.cpp.i
 
 CMakeFiles/Systemy_Op.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Systemy_Op.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/AIZO-project-2/main.cpp -o CMakeFiles/Systemy_Op.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/Systemy_Op/main.cpp -o CMakeFiles/Systemy_Op.dir/main.cpp.s
 
 CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o: CMakeFiles/Systemy_Op.dir/flags.make
-CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o: /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/ShortestPathAlg.cpp
+CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o: /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/ShortestPathAlg.cpp
 CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o -MF CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o -c /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/ShortestPathAlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o -MF CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o -c /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/ShortestPathAlg.cpp
 
 CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/ShortestPathAlg.cpp > CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/ShortestPathAlg.cpp > CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.i
 
 CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/ShortestPathAlg.cpp -o CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/ShortestPathAlg.cpp -o CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.s
+
+CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o: CMakeFiles/Systemy_Op.dir/flags.make
+CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o: /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/DjikstraMulti.cpp
+CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o -MF CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o -c /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/DjikstraMulti.cpp
+
+CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/DjikstraMulti.cpp > CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.i
+
+CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/DjikstraMulti.cpp -o CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.s
 
 CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o: CMakeFiles/Systemy_Op.dir/flags.make
-CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o: /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/FileHandler.cpp
+CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o: /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/FileHandler.cpp
 CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o -MF CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o -c /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/FileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o -MF CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o -c /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/FileHandler.cpp
 
 CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/FileHandler.cpp > CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/FileHandler.cpp > CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.i
 
 CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/FileHandler.cpp -o CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/FileHandler.cpp -o CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.s
 
 CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o: CMakeFiles/Systemy_Op.dir/flags.make
-CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o: /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/GraphGeneration.cpp
+CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o: /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/GraphGeneration.cpp
 CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o -MF CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o -c /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/GraphGeneration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o -MF CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o -c /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/GraphGeneration.cpp
 
 CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/GraphGeneration.cpp > CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/GraphGeneration.cpp > CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.i
 
 CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/GraphGeneration.cpp -o CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/GraphGeneration.cpp -o CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.s
+
+CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o: CMakeFiles/Systemy_Op.dir/flags.make
+CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o: /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.cpp
+CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o -MF CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o -c /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.cpp
+
+CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.cpp > CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.i
+
+CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.cpp -o CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.s
+
+CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o: CMakeFiles/Systemy_Op.dir/flags.make
+CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o: /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/TestScenarios.cpp
+CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o -MF CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o.d -o CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o -c /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/TestScenarios.cpp
+
+CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/TestScenarios.cpp > CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.i
+
+CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/TestScenarios.cpp -o CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.s
 
 # Object files for target Systemy_Op
 Systemy_Op_OBJECTS = \
 "CMakeFiles/Systemy_Op.dir/main.cpp.o" \
 "CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o" \
+"CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o" \
 "CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o" \
-"CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o"
+"CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o" \
+"CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o" \
+"CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o"
 
 # External object files for target Systemy_Op
 Systemy_Op_EXTERNAL_OBJECTS =
 
 Systemy_Op: CMakeFiles/Systemy_Op.dir/main.cpp.o
 Systemy_Op: CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o
+Systemy_Op: CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o
 Systemy_Op: CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o
 Systemy_Op: CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o
+Systemy_Op: CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o
+Systemy_Op: CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o
 Systemy_Op: CMakeFiles/Systemy_Op.dir/build.make
 Systemy_Op: CMakeFiles/Systemy_Op.dir/compiler_depend.ts
 Systemy_Op: CMakeFiles/Systemy_Op.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Systemy_Op"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Systemy_Op"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Systemy_Op.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +205,6 @@ CMakeFiles/Systemy_Op.dir/clean:
 .PHONY : CMakeFiles/Systemy_Op.dir/clean
 
 CMakeFiles/Systemy_Op.dir/depend:
-	cd /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grzegorz/Desktop/systemy_op/AIZO-project-2 /home/grzegorz/Desktop/systemy_op/AIZO-project-2 /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles/Systemy_Op.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/grzegorz/Desktop/systemy_op/Systemy_Op/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grzegorz/Desktop/systemy_op/Systemy_Op /home/grzegorz/Desktop/systemy_op/Systemy_Op /home/grzegorz/Desktop/systemy_op/Systemy_Op/build /home/grzegorz/Desktop/systemy_op/Systemy_Op/build /home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles/Systemy_Op.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Systemy_Op.dir/depend
 

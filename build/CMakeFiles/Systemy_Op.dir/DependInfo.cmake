@@ -8,10 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/ShortestPathAlg.cpp" "CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o.d"
-  "/home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/FileHandler.cpp" "CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o.d"
-  "/home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/GraphGeneration.cpp" "CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o.d"
-  "/home/grzegorz/Desktop/systemy_op/AIZO-project-2/main.cpp" "CMakeFiles/Systemy_Op.dir/main.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/main.cpp.o.d"
+  "/home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/DjikstraMulti.cpp" "CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o.d"
+  "/home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/ShortestPathAlg.cpp" "CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o.d"
+  "/home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/TestScenarios.cpp" "CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o.d"
+  "/home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.cpp" "CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o.d"
+  "/home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/FileHandler.cpp" "CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o.d"
+  "/home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/GraphGeneration.cpp" "CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o.d"
+  "/home/grzegorz/Desktop/systemy_op/Systemy_Op/main.cpp" "CMakeFiles/Systemy_Op.dir/main.cpp.o" "gcc" "CMakeFiles/Systemy_Op.dir/main.cpp.o.d"
   "" "Systemy_Op" "gcc" "CMakeFiles/Systemy_Op.dir/link.d"
   )
 

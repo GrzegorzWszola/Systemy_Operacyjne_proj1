@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grzegorz/Desktop/systemy_op/AIZO-project-2
+CMAKE_SOURCE_DIR = /home/grzegorz/Desktop/systemy_op/Systemy_Op
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build
+CMAKE_BINARY_DIR = /home/grzegorz/Desktop/systemy_op/Systemy_Op/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles /home/grzegorz/Desktop/systemy_op/Systemy_Op/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grzegorz/Desktop/systemy_op/AIZO-project-2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grzegorz/Desktop/systemy_op/Systemy_Op/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ Systemy_Op/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/build
 .PHONY : Systemy_Op/fast
 
+Algorithms/DjikstraMulti.o: Algorithms/DjikstraMulti.cpp.o
+.PHONY : Algorithms/DjikstraMulti.o
+
+# target to build an object file
+Algorithms/DjikstraMulti.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o
+.PHONY : Algorithms/DjikstraMulti.cpp.o
+
+Algorithms/DjikstraMulti.i: Algorithms/DjikstraMulti.cpp.i
+.PHONY : Algorithms/DjikstraMulti.i
+
+# target to preprocess a source file
+Algorithms/DjikstraMulti.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.i
+.PHONY : Algorithms/DjikstraMulti.cpp.i
+
+Algorithms/DjikstraMulti.s: Algorithms/DjikstraMulti.cpp.s
+.PHONY : Algorithms/DjikstraMulti.s
+
+# target to generate assembly for a file
+Algorithms/DjikstraMulti.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.s
+.PHONY : Algorithms/DjikstraMulti.cpp.s
+
 Algorithms/ShortestPathAlg.o: Algorithms/ShortestPathAlg.cpp.o
 .PHONY : Algorithms/ShortestPathAlg.o
 
@@ -152,6 +176,54 @@ Algorithms/ShortestPathAlg.s: Algorithms/ShortestPathAlg.cpp.s
 Algorithms/ShortestPathAlg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.s
 .PHONY : Algorithms/ShortestPathAlg.cpp.s
+
+Tests/TestScenarios.o: Tests/TestScenarios.cpp.o
+.PHONY : Tests/TestScenarios.o
+
+# target to build an object file
+Tests/TestScenarios.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o
+.PHONY : Tests/TestScenarios.cpp.o
+
+Tests/TestScenarios.i: Tests/TestScenarios.cpp.i
+.PHONY : Tests/TestScenarios.i
+
+# target to preprocess a source file
+Tests/TestScenarios.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.i
+.PHONY : Tests/TestScenarios.cpp.i
+
+Tests/TestScenarios.s: Tests/TestScenarios.cpp.s
+.PHONY : Tests/TestScenarios.s
+
+# target to generate assembly for a file
+Tests/TestScenarios.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.s
+.PHONY : Tests/TestScenarios.cpp.s
+
+Tests/Tests.o: Tests/Tests.cpp.o
+.PHONY : Tests/Tests.o
+
+# target to build an object file
+Tests/Tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o
+.PHONY : Tests/Tests.cpp.o
+
+Tests/Tests.i: Tests/Tests.cpp.i
+.PHONY : Tests/Tests.i
+
+# target to preprocess a source file
+Tests/Tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.i
+.PHONY : Tests/Tests.cpp.i
+
+Tests/Tests.s: Tests/Tests.cpp.s
+.PHONY : Tests/Tests.s
+
+# target to generate assembly for a file
+Tests/Tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Systemy_Op.dir/build.make CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.s
+.PHONY : Tests/Tests.cpp.s
 
 Utilities/FileHandler.o: Utilities/FileHandler.cpp.o
 .PHONY : Utilities/FileHandler.o
@@ -234,9 +306,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Systemy_Op"
+	@echo "... Algorithms/DjikstraMulti.o"
+	@echo "... Algorithms/DjikstraMulti.i"
+	@echo "... Algorithms/DjikstraMulti.s"
 	@echo "... Algorithms/ShortestPathAlg.o"
 	@echo "... Algorithms/ShortestPathAlg.i"
 	@echo "... Algorithms/ShortestPathAlg.s"
+	@echo "... Tests/TestScenarios.o"
+	@echo "... Tests/TestScenarios.i"
+	@echo "... Tests/TestScenarios.s"
+	@echo "... Tests/Tests.o"
+	@echo "... Tests/Tests.i"
+	@echo "... Tests/Tests.s"
 	@echo "... Utilities/FileHandler.o"
 	@echo "... Utilities/FileHandler.i"
 	@echo "... Utilities/FileHandler.s"

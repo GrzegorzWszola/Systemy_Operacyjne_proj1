@@ -1,7 +1,8 @@
-CMakeFiles/Systemy_Op.dir/main.cpp.o: \
- /home/grzegorz/Desktop/systemy_op/Systemy_Op/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
- /usr/include/c++/14/bits/requires_hosted.h \
+CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o: \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.cpp \
+ /usr/include/stdc-predef.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../DataStructures/Graph.h \
+ /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -165,22 +166,60 @@ CMakeFiles/Systemy_Op.dir/main.cpp.o: \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.h \
- /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
- /usr/include/c++/14/ratio /usr/include/c++/14/cstdint \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Utilities/Utilities.h \
+ /usr/include/c++/14/fstream /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
+ /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/sstream \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/random \
+ /usr/include/c++/14/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-macros.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/14/bits/specfun.h /usr/include/c++/14/limits \
+ /usr/include/c++/14/tr1/gamma.tcc \
+ /usr/include/c++/14/tr1/special_function_util.h \
+ /usr/include/c++/14/tr1/bessel_function.tcc \
+ /usr/include/c++/14/tr1/beta_function.tcc \
+ /usr/include/c++/14/tr1/ell_integral.tcc \
+ /usr/include/c++/14/tr1/exp_integral.tcc \
+ /usr/include/c++/14/tr1/hypergeometric.tcc \
+ /usr/include/c++/14/tr1/legendre_function.tcc \
+ /usr/include/c++/14/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/14/tr1/poly_hermite.tcc \
+ /usr/include/c++/14/tr1/poly_laguerre.tcc \
+ /usr/include/c++/14/tr1/riemann_zeta.tcc /usr/include/c++/14/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/14/limits /usr/include/c++/14/ctime \
- /usr/include/c++/14/bits/parse_numbers.h /usr/include/c++/14/sstream \
- /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/vector \
+ /usr/include/c++/14/bits/random.h /usr/include/c++/14/vector \
  /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/vector.tcc \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h \
+ /usr/include/c++/14/bits/random.tcc /usr/include/c++/14/numeric \
+ /usr/include/c++/14/bits/stl_numeric.h \
+ /usr/include/c++/14/pstl/glue_numeric_defs.h \
+ /usr/include/c++/14/pstl/execution_defs.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Utilities/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/Algorithms.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/../DataStructures//MinHeapDist.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/../DataStructures//Graph.h \
+ /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
+ /usr/include/c++/14/ratio /usr/include/c++/14/ctime \
+ /usr/include/c++/14/bits/parse_numbers.h \
+ /usr/include/c++/14/bits/stl_algo.h \
  /usr/include/c++/14/bits/algorithmfwd.h \
  /usr/include/c++/14/bits/stl_heap.h \
- /usr/include/c++/14/bits/uniform_int_dist.h \
  /usr/include/c++/14/bits/stl_tempbuf.h \
  /usr/include/c++/14/bits/shared_ptr.h \
  /usr/include/c++/14/bits/shared_ptr_base.h \
@@ -193,8 +232,7 @@ CMakeFiles/Systemy_Op.dir/main.cpp.o: \
  /usr/include/c++/14/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
- /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/libintl.h /usr/include/c++/14/bits/locale_facets_nonio.tcc \
  /usr/include/c++/14/bits/locale_conv.h \
  /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/format \
  /usr/include/c++/14/array /usr/include/c++/14/charconv \
@@ -203,4 +241,18 @@ CMakeFiles/Systemy_Op.dir/main.cpp.o: \
  /usr/include/c++/14/span /usr/include/c++/14/variant \
  /usr/include/c++/14/bits/ranges_algobase.h \
  /usr/include/c++/14/bits/unicode.h \
- /usr/include/c++/14/bits/unicode-data.h
+ /usr/include/c++/14/bits/unicode-data.h /usr/include/c++/14/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/../DataStructures/MinHeap.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/../DataStructures/DisjointSet.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/../Algorithms/../DataStructures/Stack.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.h

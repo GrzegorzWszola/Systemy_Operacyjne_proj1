@@ -4,8 +4,11 @@ Systemy_Op: \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/Systemy_Op.dir/main.cpp.o \
   CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o \
+  CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o \
   CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o \
   CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o \
+  CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o \
+  CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
@@ -45,9 +48,15 @@ CMakeFiles/Systemy_Op.dir/main.cpp.o:
 
 CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o:
 
+CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o:
+
 CMakeFiles/Systemy_Op.dir/Utilities/FileHandler.cpp.o:
 
 CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o:
+
+CMakeFiles/Systemy_Op.dir/Tests/Tests.cpp.o:
+
+CMakeFiles/Systemy_Op.dir/Tests/TestScenarios.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so:
 

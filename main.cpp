@@ -1,13 +1,13 @@
 #include <iostream>
-#include "Tests/Tests.cpp"
+#include "Tests/Tests.h"
 
-int main() {
+int main(int argc, char* argv[]) {
     bool testCorrectness = 0;
-    
+
     if(testCorrectness){
-        testDjikstraCorrectness();
+        testDjikstraCorrectness(argv[1]);
     } else {
-        testDjikstra();
+        testScenarios();
     }
     
     

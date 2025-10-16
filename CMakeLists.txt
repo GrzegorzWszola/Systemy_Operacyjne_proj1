@@ -7,6 +7,7 @@ add_executable(Systemy_Op
         main.cpp
         Algorithms/Algorithms.h
         Algorithms/ShortestPathAlg.cpp
+        Algorithms/DjikstraMulti.cpp
         DataStructures/Graph.h
         Utilities/Utilities.h
         Utilities/FileHandler.cpp
@@ -14,4 +15,7 @@ add_executable(Systemy_Op
         DataStructures/MinHeap.h
         DataStructures/DisjointSet.h
         DataStructures/Stack.h
+        Tests/Tests.cpp
+        Tests/TestScenarios.cpp
+        Tests/Tests.h
 )

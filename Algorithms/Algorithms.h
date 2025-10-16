@@ -16,10 +16,10 @@ public:
     static void printResultDistance(Graph const *&graph, int nodes, int* &distance);
     static void printResultPath(Graph const *&graph, int nodes, int* &distance, int* &previous);
     static void printPath(int node, int* &previous);
-    static void dijkstra(Graph const *graph, std::chrono::milliseconds &timeMatrix);
-    static void dijkstraPrint(Graph const *graph, std::chrono::milliseconds &timeMatrix);
-    static void djikstraMulti(Graph const *graph, std::chrono::milliseconds &timeMatrix);
-    static void djikstraMultiPrint(Graph const *graph, std::chrono::milliseconds &timeMatrix);
+    static void dijkstra(Graph const *graph, std::chrono::milliseconds &timeList);
+    static void dijkstraPrint(Graph const *graph, std::chrono::milliseconds &timeList);
+    static void djikstraMulti(Graph const *graph, std::chrono::milliseconds &timeList, int numThreads);
+    static void djikstraMultiPrint(Graph const *graph, std::chrono::milliseconds &timeList, int numThreads);
 };
 
 

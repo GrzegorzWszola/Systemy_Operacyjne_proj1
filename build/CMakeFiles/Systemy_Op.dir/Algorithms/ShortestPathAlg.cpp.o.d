@@ -1,9 +1,9 @@
 CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o: \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/ShortestPathAlg.cpp \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/ShortestPathAlg.cpp \
  /usr/include/stdc-predef.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/Algorithms.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures//MinHeapDist.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures//Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/Algorithms.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures//MinHeapDist.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures//Graph.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -214,9 +214,9 @@ CMakeFiles/Systemy_Op.dir/Algorithms/ShortestPathAlg.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures/Graph.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures/MinHeap.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures/Graph.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures/DisjointSet.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures/Stack.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Algorithms/../DataStructures/MinHeapDist.h
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/MinHeap.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/DisjointSet.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/Stack.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/MinHeapDist.h

@@ -1,7 +1,10 @@
-CMakeFiles/Systemy_Op.dir/main.cpp.o: \
- /home/grzegorz/Desktop/systemy_op/Systemy_Op/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
- /usr/include/c++/14/bits/requires_hosted.h \
+CMakeFiles/Systemy_Op.dir/Algorithms/DjikstraMulti.cpp.o: \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/DjikstraMulti.cpp \
+ /usr/include/stdc-predef.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/Algorithms.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures//MinHeapDist.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures//Graph.h \
+ /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -164,10 +167,9 @@ CMakeFiles/Systemy_Op.dir/main.cpp.o: \
  /usr/include/c++/14/bits/locale_facets.tcc \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
- /usr/include/c++/14/bits/istream.tcc \
- /home/grzegorz/Desktop/systemy_op/Systemy_Op/Tests/Tests.h \
- /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
- /usr/include/c++/14/ratio /usr/include/c++/14/cstdint \
+ /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/chrono \
+ /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/ratio \
+ /usr/include/c++/14/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
@@ -203,4 +205,41 @@ CMakeFiles/Systemy_Op.dir/main.cpp.o: \
  /usr/include/c++/14/span /usr/include/c++/14/variant \
  /usr/include/c++/14/bits/ranges_algobase.h \
  /usr/include/c++/14/bits/unicode.h \
- /usr/include/c++/14/bits/unicode-data.h
+ /usr/include/c++/14/bits/unicode-data.h /usr/include/c++/14/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/MinHeap.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/DisjointSet.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Algorithms/../DataStructures/Stack.h \
+ /usr/include/c++/14/atomic /usr/include/c++/14/bits/atomic_base.h \
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14/bits/atomic_wait.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/include/c++/14/bits/std_mutex.h /usr/include/c++/14/mutex \
+ /usr/include/c++/14/bits/unique_lock.h \
+ /usr/include/c++/14/condition_variable /usr/include/c++/14/stop_token \
+ /usr/include/c++/14/bits/std_thread.h /usr/include/c++/14/semaphore \
+ /usr/include/c++/14/bits/semaphore_base.h \
+ /usr/include/c++/14/bits/atomic_timed_wait.h \
+ /usr/include/c++/14/bits/this_thread_sleep.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/include/c++/14/thread

@@ -1,32 +1,23 @@
 #include "../DataStructures/Graph.h"
 #include "../Utilities/Utilities.h"
 #include "../Algorithms/Algorithms.h"
+#include "Tests.h"
 
-void testDjikstra() {
-    int nodes = 1000;
-    int density = 60;
-    int minCap = 10;
-    int maxCap = 100;
-    bool directed = false;
+void testDjikstra(int nodes, int density, int minCap, int maxCap, bool directed, std::chrono::milliseconds &time, std::chrono::milliseconds &time2, int numThreads) {
     Graph* testGraph = GraphGeneration::createRandomGraph(nodes, density, minCap, maxCap, directed);
-
-    std::chrono::milliseconds time;
-
     // Testing normal Djikstra
     ShortestPathAlgorithms::dijkstra(testGraph, time);
-
-    std::cout << "Time for djikstra normal: " << time.count() << std::endl;
+    ShortestPathAlgorithms::djikstraMulti(testGraph, time2, numThreads);
 }
 
-void testDjikstraCorrectness() {
-    std::string filename = "/home/grzegorz/Desktop/systemy_op/AIZO-project-2/dane_do_testu_poprawnosci.txt";
+void testDjikstraCorrectness(std::string filename) {
     int** graphData = FileHandler::readFile(filename);
     Graph* testGraph = GraphGeneration::createGraphFromFile(graphData);
 
     std::chrono::milliseconds time;
+    std::chrono::milliseconds time2;
 
     // Testing normal Djikstra
     ShortestPathAlgorithms::dijkstraPrint(testGraph, time);
-
-    std::cout << "Time for djikstra normal: " << time.count() << std::endl;
+    ShortestPathAlgorithms::djikstraMultiPrint(testGraph, time2, 4);
 }

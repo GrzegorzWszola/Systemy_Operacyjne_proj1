@@ -1,7 +1,7 @@
 CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o: \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/GraphGeneration.cpp \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/GraphGeneration.cpp \
  /usr/include/stdc-predef.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/Utilities.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/Utilities.h \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -209,5 +209,5 @@ CMakeFiles/Systemy_Op.dir/Utilities/GraphGeneration.cpp.o: \
  /usr/include/c++/14/bits/stl_numeric.h \
  /usr/include/c++/14/pstl/glue_numeric_defs.h \
  /usr/include/c++/14/pstl/execution_defs.h \
- /home/grzegorz/Desktop/systemy_op/AIZO-project-2/Utilities/../DataStructures/Graph.h \
+ /home/grzegorz/Desktop/systemy_op/Systemy_Op/Utilities/../DataStructures/Graph.h \
  /usr/include/c++/14/iostream
